@@ -1,0 +1,35 @@
+.row>div {
+    display: inline-block;
+    border: 1px solid gainsboro;
+    box-sizing: border-box;
+    width: 5%;
+    overflow: clip;
+    white-space: nowrap;
+}
+
+.row {
+    height: 20px;
+    /* content-visibility: auto;  */
+}
+
+div#root {
+    /* display: none; */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0.5em;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+    text-align: left;
+}
+
+* {
+    font-family: arial;
+}
